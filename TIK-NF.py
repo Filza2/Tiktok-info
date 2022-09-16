@@ -1,5 +1,5 @@
 try:import re;from colorama import Fore;from requests import get
-except ModuleNotFoundError:exit('[!] Download The Missing Module !')
+except Exception as e:print(f'[!] Download The Missing Module ! , {e}');exit()
 print("""
 ████████╗██╗██╗  ██╗     ███╗   ██╗███████╗
 ╚══██╔══╝██║██║ ██╔╝     ████╗  ██║██╔════╝
